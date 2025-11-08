@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse our available phones and laptops - new and used devices at AJ Tech Jos, Nigeria">
+    <title>Available Devices - AJ Tech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="products-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>AJ Tech</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="index.html#services" class="nav-link">Services</a></li>
+                    <li><a href="products.html" class="nav-link active">Products</a></li>
+                    <li><a href="index.html#about" class="nav-link">About</a></li>
+                    <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Available Devices</h1>
+            <p>Browse our collection of new and used phones and laptops</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All Devices</button>
+                <button class="filter-btn" data-filter="new-phones">New Phones</button>
+                <button class="filter-btn" data-filter="used-phones">Used Phones</button>
+                <button class="filter-btn" data-filter="new-laptops">New Laptops</button>
+                <button class="filter-btn" data-filter="used-laptops">Used Laptops</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Catalog -->
+    <section class="products-catalog">
+        <div class="container">
+            <div class="catalog-grid" id="catalogGrid">
+
+                <!-- NEW PHONES -->
+                <div class="catalog-card" data-category="new-phones">
+                    <div class="card-badge new">New</div>
+                    <div class="card-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>iPhone 15 Pro Max</h3>
+                        <p class="specs">256GB, Natural Titanium</p>
+                        <div class="price-tag">₦1,200,000</div>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> Brand New</li>
+                            <li><i class="fas fa-check"></i> 1 Year Warranty</li>
+                            <li><i class="fas fa-check"></i> Original Accessories</li>
+                        </ul>
+                        <button class="whatsapp-btn" onclick="sendWhatsAppInquiry('iPhone 15 Pro Max', '256GB, Natural Titanium', '₦1,200,000', 'New')">
+                            <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+                <div class="catalog-card" data-category="new-phones">
+                    <div class="card-badge new">New</div>
+                    <div class="card-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Samsung Galaxy S24 Ultra</h3>
+                        <p class="specs">512GB, Titanium Black</p>
+                        <div class="price-tag">₦950,000</div>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> Brand New</li>
+                            <li><i class="fas fa-check"></i> 1 Year Warranty</li>
+                            <li><i class="fas fa-check"></i> S Pen Included</li>
+                        </ul>
+                        <button class="whatsapp-btn" onclick="sendWhatsAppInquiry('Samsung Galaxy S24 Ultra', '512GB, Titanium Black', '₦950,000', 'New')">
+                            <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+                <div class="catalog-card" data-category="new-phones">
+                    <div class="card-badge new">New</div>
+                    <div class="card-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Tecno Phantom X2 Pro</h3>
+                        <p class="specs">256GB, Stardust Grey</p>
+                        <div class="price-tag">₦280,000</div>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> Brand New</li>
+                            <li><i class="fas fa-check"></i> 1 Year Warranty</li>
+                            <li><i class="fas fa-check"></i> 64MP Camera</li>
+                        </ul>
+                        <button class="whatsapp-btn" onclick="sendWhatsAppInquiry('Tecno Phantom X2 Pro', '256GB, Stardust Grey', '₦280,000', 'New')">
+                            <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+                <!-- USED PHONES -->
+                <div class="catalog-card" data-category="used-phones">
+                    <div class="card-badge used">Used</div>
+                    <div class="card-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>iPhone 13 Pro</h3>
+                        <p class="specs">128GB, Sierra Blue - Excellent Condition</p>
+                        <div class="price-tag">₦480,000</div>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> 95% Battery Health</li>
+                            <li><i class="fas fa-check"></i> 3 Months Warranty</li>
+                            <li><i class="fas fa-check"></i> No Scratches</li>
+                        </ul>
+                        <button class="whatsapp-btn" onclick="sendWhatsAppInquiry('iPhone 13 Pro (Used)', '128GB, Sierra Blue - Excellent', '₦480,000', 'Used')">
+                            <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+                <div class="catalog-card" data-category="used-phones">
+                    <div class="card-badge used">Used</div>
+                    <div class="card-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Samsung Galaxy S22</h3>
+                        <p class="specs">256GB, Phantom Black - Good Condition</p>
+                        <div class="price-tag">₦320,000</div>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> 90% Battery Health</li>
+                            <li><i class="fas fa-check"></i> 3 Months Warranty</li>
+                            <li><i class="fas fa-check"></i> Fully Tested</li>
+                        </ul>
+                        <button class="whatsapp-btn" onclick="sendWhatsAppInquiry('Samsung Galaxy S22 (Used)', '256GB, Phantom Black - Good', '₦320,000', 'Used')">
+                            <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+                <!-- NEW LAPTOPS -->
+                <div class="catalog-card" data-category="new-laptops">
+                    <div class="card-badge new">New</div>
+                    <div class="card-image">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>MacBook Pro 14" M3</h3>
+                        <p class="specs">16GB RAM, 512GB SSD</p>
+                        <div class="price-tag">₦1,800,000</div>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> Brand New Sealed</li>
+                            <li><i class="fas fa-check"></i> 1 Year Warranty</li>
+                            <li><i class="fas fa-check"></i> Space Black</li>
+                        </ul>
+                        <button class="whatsapp-btn" onclick="sendWhatsAppInquiry('MacBook Pro 14 M3', '16GB RAM, 512GB SSD', '₦1,800,000', 'New')">
+                            <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+                <div class="catalog-card" data-category="new-laptops">
+                    <div class="card-badge new">New</div>
+                    <div class="card-image">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>HP Pavilion 15</h3>
+                        <p class="specs">Intel i7, 16GB RAM, 512GB SSD</p>
+                        <div class="price-tag">₦650,000</div>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> Brand New</li>
+                            <li><i class="fas fa-check"></i> 1 Year Warranty</li>
+                            <li><i class="fas fa-check"></i> Windows 11</li>
+                        </ul>
+                        <button class="whatsapp-btn" onclick="sendWhatsAppInquiry('HP Pavilion 15', 'Intel i7, 16GB RAM, 512GB SSD', '₦650,000', 'New')">
+                            <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+                <div class="catalog-card" data-category="new-laptops">
+                    <div class="card-badge new">New</div>
+                    <div class="card-image">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Dell Inspiron 15</h3>
+                        <p class="specs">Intel i5, 8GB RAM, 256GB SSD</p>
+                        <div class="price-tag">₦450,000</div>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> Brand New</li>
+                            <li><i class="fas fa-check"></i> 1 Year Warranty</li>
+                            <li><i class="fas fa-check"></i> Perfect for Students</li>
+                        </ul>
+                        <button class="whatsapp-btn" onclick="sendWhatsAppInquiry('Dell Inspiron 15', 'Intel i5, 8GB RAM, 256GB SSD', '₦450,000', 'New')">
+                            <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+                <!-- USED LAPTOPS -->
+                <div class="catalog-card" data-category="used-laptops">
+                    <div class="card-badge used">Used</div>
+                    <div class="card-image">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>MacBook Air M1</h3>
+                        <p class="specs">8GB RAM, 256GB SSD - Excellent</p>
+                        <div class="price-tag">₦580,000</div>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> 92% Battery Health</li>
+                            <li><i class="fas fa-check"></i> 3 Months Warranty</li>
+                            <li><i class="fas fa-check"></i> Like New Condition</li>
+                        </ul>
+                        <button class="whatsapp-btn" onclick="sendWhatsAppInquiry('MacBook Air M1 (Used)', '8GB RAM, 256GB SSD - Excellent', '₦580,000', 'Used')">
+                            <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+                <div class="catalog-card" data-category="used-laptops">
+                    <div class="card-badge used">Used</div>
+                    <div class="card-image">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Lenovo ThinkPad T490</h3>
+                        <p class="specs">Intel i5, 16GB RAM, 512GB SSD</p>
+                        <div class="price-tag">₦350,000</div>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> Good Condition</li>
+                            <li><i class="fas fa-check"></i> 3 Months Warranty</li>
+                            <li><i class="fas fa-check"></i> Business Grade</li>
+                        </ul>
+                        <button class="whatsapp-btn" onclick="sendWhatsAppInquiry('Lenovo ThinkPad T490 (Used)', 'Intel i5, 16GB RAM, 512GB SSD', '₦350,000', 'Used')">
+                            <i class="fab fa-whatsapp"></i> Inquire on WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AJ Tech</h3>
+                    <p>Your trusted tech partner in Nigeria for repairs, new devices, and quality pre-owned products.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="index.html#services">Phone Repair</a></li>
+                        <li><a href="index.html#services">Laptop Repair</a></li>
+                        <li><a href="products.html">New Devices</a></li>
+                        <li><a href="products.html">Used Devices</a></li>
+                        <li><a href="index.html#products">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Jos, Nigeria</li>
+                        <li><i class="fas fa-phone"></i> +234 XXX XXX XXXX</li>
+                        <li><i class="fas fa-envelope"></i> info@ajtech.com.ng</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AJ Tech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="products-script.js"></script>
+</body>
+</html>
