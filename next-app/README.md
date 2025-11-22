@@ -148,7 +148,7 @@ Built for AJ Tech Nigeria
 
 ## 🤝 Support
 
-For support, email info@ajtech.com.ng or call +234 XXX XXX XXXX
+For support, email info@ajtech.com.ng or call +234 814 757 1469
 
 ---
 

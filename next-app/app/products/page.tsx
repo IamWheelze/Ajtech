@@ -262,10 +262,10 @@ export default function ProductsPage() {
               Contact us and we'll help you find the perfect device
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <a href="https://wa.me/234XXXXXXXXXX" target="_blank" rel="noopener noreferrer" className="btn bg-white text-primary-600 hover:bg-gray-100">
+              <a href="https://wa.me/2348147571469" target="_blank" rel="noopener noreferrer" className="btn bg-white text-primary-600 hover:bg-gray-100">
                 WhatsApp Us
               </a>
-              <a href="tel:+234XXXXXXXXXX" className="btn bg-white/10 hover:bg-white/20 text-white border-2 border-white">
+              <a href="tel:+2348147571469" className="btn bg-white/10 hover:bg-white/20 text-white border-2 border-white">
                 Call Now
               </a>
             </div>

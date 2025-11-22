@@ -152,10 +152,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-lg font-display font-semibold mb-1">Phone</h3>
                     <a
-                      href="tel:+234XXXXXXXXXX"
+                      href="tel:+2348147571469"
                       className="text-gray-400 hover:text-primary-400 transition-colors"
                     >
-                      +234 XXX XXX XXXX
+                      +234 814 757 1469
                     </a>
                     <p className="text-sm text-gray-500 mt-1">Mon-Sat: 9AM - 7PM</p>
                   </div>
@@ -206,7 +206,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-lg font-display font-semibold mb-1">WhatsApp</h3>
                     <a
-                      href="https://wa.me/234XXXXXXXXXX"
+                      href="https://wa.me/2348147571469"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-primary-400 transition-colors"
@@ -299,7 +299,7 @@ export default function ContactPage() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-lg glass border border-white/10 focus:border-primary-500 focus:outline-none transition-colors"
-                      placeholder="+234 XXX XXX XXXX"
+                      placeholder="+234 814 757 1469"
                     />
                   </div>
                 </div>

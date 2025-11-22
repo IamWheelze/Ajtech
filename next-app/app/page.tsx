@@ -415,7 +415,7 @@ export default function Home() {
               <Link href="/contact" className="btn bg-white text-primary-600 hover:bg-gray-100">
                 Get Free Quote
               </Link>
-              <Link href="tel:+234XXXXXXXXXX" className="btn bg-white/10 hover:bg-white/20 text-white border-2 border-white">
+              <Link href="tel:+2348147571469" className="btn bg-white/10 hover:bg-white/20 text-white border-2 border-white">
                 Call Us Now
               </Link>
             </div>
